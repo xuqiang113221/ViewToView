@@ -19,7 +19,26 @@
 		4A256D4517C64124000EAB4E /* YDTHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A256D4417C64124000EAB4E /* YDTHViewController.m */; };
 		4A256D4817C64124000EAB4E /* YDTHViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A256D4617C64124000EAB4E /* YDTHViewController_iPhone.xib */; };
 		4A256D4B17C64124000EAB4E /* YDTHViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A256D4917C64124000EAB4E /* YDTHViewController_iPad.xib */; };
+		4A256D5217C6435C000EAB4E /* this.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A256D5117C6435C000EAB4E /* this.png */; };
+		4A256D5A17C6EFB2000EAB4E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A256D5917C6EFB2000EAB4E /* SenTestingKit.framework */; };
+		4A256D5B17C6EFB2000EAB4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A256D2B17C64124000EAB4E /* UIKit.framework */; };
+		4A256D5C17C6EFB2000EAB4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A256D2D17C64124000EAB4E /* Foundation.framework */; };
+		4A256D6217C6EFB2000EAB4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A256D6017C6EFB2000EAB4E /* InfoPlist.strings */; };
+		4A256D6517C6EFB2000EAB4E /* UnitTestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A256D6417C6EFB2000EAB4E /* UnitTestDemo.m */; };
+		4A256D6E17C6F203000EAB4E /* YDTHTestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A256D6D17C6F203000EAB4E /* YDTHTestDemo.m */; };
+		4A88E47617CB2A4900E32D4A /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A88E47517CB2A4900E32D4A /* test2.png */; };
+		4A88E47817CB2A7C00E32D4A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A88E47717CB2A7C00E32D4A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A256D6A17C6F179000EAB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A256D2017C64124000EAB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A256D2717C64124000EAB4E;
+			remoteInfo = ViewToView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4A256D2817C64124000EAB4E /* ViewToView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewToView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +58,18 @@
 		4A256D4417C64124000EAB4E /* YDTHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTHViewController.m; sourceTree = "<group>"; };
 		4A256D4717C64124000EAB4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YDTHViewController_iPhone.xib; sourceTree = "<group>"; };
 		4A256D4A17C64124000EAB4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YDTHViewController_iPad.xib; sourceTree = "<group>"; };
+		4A256D5117C6435C000EAB4E /* this.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = this.png; sourceTree = "<group>"; };
+		4A256D5817C6EFB2000EAB4E /* UnitTestDemo.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestDemo.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A256D5917C6EFB2000EAB4E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A256D5F17C6EFB2000EAB4E /* UnitTestDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTestDemo-Info.plist"; sourceTree = "<group>"; };
+		4A256D6117C6EFB2000EAB4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A256D6317C6EFB2000EAB4E /* UnitTestDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTestDemo.h; sourceTree = "<group>"; };
+		4A256D6417C6EFB2000EAB4E /* UnitTestDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestDemo.m; sourceTree = "<group>"; };
+		4A256D6617C6EFB2000EAB4E /* UnitTestDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTestDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4A256D6C17C6F203000EAB4E /* YDTHTestDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTHTestDemo.h; sourceTree = "<group>"; };
+		4A256D6D17C6F203000EAB4E /* YDTHTestDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDTHTestDemo.m; sourceTree = "<group>"; };
+		4A88E47517CB2A4900E32D4A /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
+		4A88E47717CB2A7C00E32D4A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +83,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A256D5417C6EFB1000EAB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A88E47817CB2A7C00E32D4A /* QuartzCore.framework in Frameworks */,
+				4A256D5A17C6EFB2000EAB4E /* SenTestingKit.framework in Frameworks */,
+				4A256D5B17C6EFB2000EAB4E /* UIKit.framework in Frameworks */,
+				4A256D5C17C6EFB2000EAB4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4A256D1F17C64124000EAB4E = {
 			isa = PBXGroup;
 			children = (
+				4A88E47717CB2A7C00E32D4A /* QuartzCore.framework */,
+				4A88E47517CB2A4900E32D4A /* test2.png */,
+				4A256D6C17C6F203000EAB4E /* YDTHTestDemo.h */,
+				4A256D6D17C6F203000EAB4E /* YDTHTestDemo.m */,
 				4A256D3117C64124000EAB4E /* ViewToView */,
+				4A256D5D17C6EFB2000EAB4E /* UnitTestDemo */,
 				4A256D2A17C64124000EAB4E /* Frameworks */,
 				4A256D2917C64124000EAB4E /* Products */,
 			);
@@ -68,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				4A256D2817C64124000EAB4E /* ViewToView.app */,
+				4A256D5817C6EFB2000EAB4E /* UnitTestDemo.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +126,7 @@
 				4A256D2B17C64124000EAB4E /* UIKit.framework */,
 				4A256D2D17C64124000EAB4E /* Foundation.framework */,
 				4A256D2F17C64124000EAB4E /* CoreGraphics.framework */,
+				4A256D5917C6EFB2000EAB4E /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,6 +140,7 @@
 				4A256D4417C64124000EAB4E /* YDTHViewController.m */,
 				4A256D4617C64124000EAB4E /* YDTHViewController_iPhone.xib */,
 				4A256D4917C64124000EAB4E /* YDTHViewController_iPad.xib */,
+				4A256D5117C6435C000EAB4E /* this.png */,
 				4A256D3217C64124000EAB4E /* Supporting Files */,
 			);
 			path = ViewToView;
@@ -106,6 +156,26 @@
 				4A256D3D17C64124000EAB4E /* Default.png */,
 				4A256D3F17C64124000EAB4E /* Default@2x.png */,
 				4A256D4117C64124000EAB4E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A256D5D17C6EFB2000EAB4E /* UnitTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4A256D6317C6EFB2000EAB4E /* UnitTestDemo.h */,
+				4A256D6417C6EFB2000EAB4E /* UnitTestDemo.m */,
+				4A256D5E17C6EFB2000EAB4E /* Supporting Files */,
+			);
+			path = UnitTestDemo;
+			sourceTree = "<group>";
+		};
+		4A256D5E17C6EFB2000EAB4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A256D5F17C6EFB2000EAB4E /* UnitTestDemo-Info.plist */,
+				4A256D6017C6EFB2000EAB4E /* InfoPlist.strings */,
+				4A256D6617C6EFB2000EAB4E /* UnitTestDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -130,6 +200,25 @@
 			productReference = 4A256D2817C64124000EAB4E /* ViewToView.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4A256D5717C6EFB1000EAB4E /* UnitTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A256D6717C6EFB2000EAB4E /* Build configuration list for PBXNativeTarget "UnitTestDemo" */;
+			buildPhases = (
+				4A256D5317C6EFB1000EAB4E /* Sources */,
+				4A256D5417C6EFB1000EAB4E /* Frameworks */,
+				4A256D5517C6EFB1000EAB4E /* Resources */,
+				4A256D5617C6EFB1000EAB4E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A256D6B17C6F179000EAB4E /* PBXTargetDependency */,
+			);
+			name = UnitTestDemo;
+			productName = UnitTestDemo;
+			productReference = 4A256D5817C6EFB2000EAB4E /* UnitTestDemo.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +242,7 @@
 			projectRoot = "";
 			targets = (
 				4A256D2717C64124000EAB4E /* ViewToView */,
+				4A256D5717C6EFB1000EAB4E /* UnitTestDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -168,10 +258,36 @@
 				4A256D4217C64124000EAB4E /* Default-568h@2x.png in Resources */,
 				4A256D4817C64124000EAB4E /* YDTHViewController_iPhone.xib in Resources */,
 				4A256D4B17C64124000EAB4E /* YDTHViewController_iPad.xib in Resources */,
+				4A256D5217C6435C000EAB4E /* this.png in Resources */,
+				4A88E47617CB2A4900E32D4A /* test2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A256D5517C6EFB1000EAB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A256D6217C6EFB2000EAB4E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A256D5617C6EFB1000EAB4E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A256D2417C64124000EAB4E /* Sources */ = {
@@ -184,7 +300,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A256D5317C6EFB1000EAB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A256D6517C6EFB2000EAB4E /* UnitTestDemo.m in Sources */,
+				4A256D6E17C6F203000EAB4E /* YDTHTestDemo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A256D6B17C6F179000EAB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A256D2717C64124000EAB4E /* ViewToView */;
+			targetProxy = 4A256D6A17C6F179000EAB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4A256D3417C64124000EAB4E /* InfoPlist.strings */ = {
@@ -209,6 +342,14 @@
 				4A256D4A17C64124000EAB4E /* en */,
 			);
 			name = YDTHViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		4A256D6017C6EFB2000EAB4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A256D6117C6EFB2000EAB4E /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,6 +433,40 @@
 			};
 			name = Release;
 		};
+		4A256D6817C6EFB2000EAB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewToView.app/ViewToView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestDemo/UnitTestDemo-Prefix.pch";
+				INFOPLIST_FILE = "UnitTestDemo/UnitTestDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4A256D6917C6EFB2000EAB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewToView.app/ViewToView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTestDemo/UnitTestDemo-Prefix.pch";
+				INFOPLIST_FILE = "UnitTestDemo/UnitTestDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -311,6 +486,16 @@
 				4A256D5017C64124000EAB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A256D6717C6EFB2000EAB4E /* Build configuration list for PBXNativeTarget "UnitTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A256D6817C6EFB2000EAB4E /* Debug */,
+				4A256D6917C6EFB2000EAB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
